@@ -1,0 +1,20 @@
+# Виртуальное окружение
+venv/
+.venv/
+env/
+
+# Базы данных (наши локальные файлы БД)
+academy.db
+test_academy.db
+
+# Кэш Python и pytest
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Настройки сред разработки
+.idea/
+.vscode/
+
+# Секретные файлы (пригодятся в будущем)
+.env
